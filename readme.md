@@ -36,7 +36,7 @@ if a person has 100 medical events that happen within a single month, then there
 ## Validation Checks
 
 Once all the data has been gathered into a single collection, we need to check each field’s “fill rate.” This means we are 
-checking what percentage of the fields values are non-null. So if the file has 100 records and 90 of those have no value 
+checking what percentage of the fields values are non-null. So if the file has 100 records and 90 of those have a value 
 for `last_name`, then `last_name` has a 90% fill rate.
 
 ## Result Format
