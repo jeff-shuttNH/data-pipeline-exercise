@@ -1,3 +1,15 @@
+# Getting Started
+
+You are welcome to do this exercise in whatever language you want, but there are a few starter templates available under
+`/src/main` if you want to use Scala, Scala w/ Spark, or Java. You are welcome to use any IDE of your choice and if you 
+choose to use any of the templates provided, the prerequisites are listed below. 
+
+| Language | Prerequisites | Build File | Template Location |   
+| -------- | ------------- | ---------- | ----------------- | 
+| Scala    | - JDK8 or higher<br /> - SBT |  `build.sbt` | `/src/main/scala/coding_exercise/ScalaDataPipeline.scala` | 
+| Scala w/ Spark | - JDK8 or higher<br /> - SBT |  `build.sbt` | `/src/main/scala/coding_exercise/ScalaSparkDataPipeline.scala` | 
+| Java | - JDK8 or higher | `pom.xml` | `/src/main/java/coding_exercise/JavaDataPipeline.java` |
+
 # Assignment Goals
 
 - Read in plain text files in various formats
@@ -55,10 +67,3 @@ the records together.
 | total_claim_count   | Int             |
 
 Write these results out to a `.csv` file.
-
-## Getting Started
-
-You are welcome to do this exercise in whatever language you want, but there are a few starter templates available under 
-`/src/main` if you want to use Scala, Scala w/ Spark, or Java. Just see the main classes in 
-`/src/main/scala/coding_exercise/ScalaDataPipeline.scala`, `/src/main/scala/coding_exercise/ScalaSparkDataPipeline.scala`, or
-`/src/main/java/coding_exercise/JavaDataPipeline.java`, respectively.   

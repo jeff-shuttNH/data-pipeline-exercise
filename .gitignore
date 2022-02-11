@@ -3,3 +3,6 @@ lib_managed
 .idea
 .idea_modules
 out
+/.metals/
+/.vscode/
+/.bloop/
