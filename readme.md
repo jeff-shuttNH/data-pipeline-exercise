@@ -39,7 +39,7 @@ if a person has 100 medical events that happen within a single month, then there
 | claim_id         | String          |
 | first_name       | String          |
 | last_name        | String          |
-| birth_date       | Date (MM-dd-yy) |
+| birth_date       | Date (yyyyMMdd) |
 | claim_amount     | Decimal         |
 | service_date     | Date (yyyyMMdd) |
 | paid_amount      | Decimal         |
