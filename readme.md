@@ -6,9 +6,9 @@ choose to use any of the templates provided, the prerequisites are listed below.
 
 | Language | Prerequisites | Build File | Template Location |   
 | -------- | ------------- | ---------- | ----------------- | 
-| Scala    | - JDK8 or higher<br /> - SBT |  `build.sbt` | `/src/main/scala/coding_exercise/ScalaDataPipeline.scala` | 
-| Scala w/ Spark | - JDK8 or higher<br /> - SBT |  `build.sbt` | `/src/main/scala/coding_exercise/ScalaSparkDataPipeline.scala` | 
-| Java | - JDK8 or higher | `pom.xml` | `/src/main/java/coding_exercise/JavaDataPipeline.java` |
+| Scala    | - JDK8 <br /> - SBT |  `build.sbt` | `/src/main/scala/coding_exercise/ScalaDataPipeline.scala` | 
+| Scala w/ Spark | - JDK8 <br /> - SBT |  `build.sbt` | `/src/main/scala/coding_exercise/ScalaSparkDataPipeline.scala` | 
+| Java | - JDK8  | `pom.xml` | `/src/main/java/coding_exercise/JavaDataPipeline.java` |
 
 # Assignment Goals
 
