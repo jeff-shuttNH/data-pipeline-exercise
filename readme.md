@@ -12,16 +12,15 @@ choose to use any of the templates provided, the prerequisites are listed below.
 
 # Assignment Goals
 
-- Read in plain text files in various formats
-- Standardize them into a single format
-- Run validations/checks against the data to determine potential quality issues
-- Run some “analysis” on the data and generate a single resulting dataset
+- Read in a plain text file in csv format and standardize its format
+- Execute some validation checks against the data to determine potential quality issues
+- Run analyses on the data and generate a single resulting dataset
 
-## Files
-Data Granularity: Data in these files are at the event granularity, that is to say when a medical event actually occurs. So 
+## File 1
+**Data Granularity:** Data in this file are at the event granularity, that is to say when a medical event actually occurs. So 
 if a person has 100 medical events that happen within a single month, then there will be 1 record(row) per event.
-`file1` — csv file, has header and the following schema
 
+[/src/main/resources/file1.csv](src/main/resources/file1.csv) has the following schema
 - member_num
 - record_id
 - fname
@@ -32,6 +31,7 @@ if a person has 100 medical events that happen within a single month, then there
 - date_of_service
 
 ## Standard Format
+Standardize the file into the following format
 
 | Field Name       | Data Type       |
 | ---------------- | ---------       |
@@ -52,7 +52,7 @@ checking what percentage of the fields values are non-null. So if the file has 1
 for `last_name`, then `last_name` has a 90% fill rate.
 
 ## Result Format
-Data Granularity: The granularity of this data is expected to be at the per member, per month level, which means that if 
+**Data Granularity:** The granularity of this data are expected to be at the per member, per month level, which means that if 
 there are 100 medical events in the month of 11/2017 for member 123, there will be a single record that aggregates all 
 the records together.
 
