@@ -10,6 +10,7 @@
   code and move on. 
 - You are allowed to "google" for help on things, as that is a skill that all engineers are expected to have in their day to 
   day work.
+- We do expect you to produce runnable code.
 
 # Starter Templates
 
