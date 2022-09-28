@@ -18,6 +18,17 @@ public class JavaDatePipeline {
             System.out.println(Arrays.toString(myEntries.get(i)));
         }
 
-        //TODO
+        //TODO - Goal 1
+
+
+
+        //TODO - Goal 2
+
+
+
+        //TODO - Goal3
+
+
+
     }
 }

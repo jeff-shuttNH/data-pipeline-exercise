@@ -13,7 +13,17 @@ object ScalaDataPipeline {
 
     println(lines.take(10))
 
-    //TODO
+    //TODO - Goal 1
+
+
+
+    //TODO - Goal 2
+
+
+
+    //TODO - Goal3
+
+
 
   }
 }

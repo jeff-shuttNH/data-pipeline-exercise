@@ -15,7 +15,17 @@ object ScalaSparkDataPipeline {
 
     println(medicalRecords.take(10).mkString("Array(", ", ", ")"))
 
-    //TODO
+    //TODO - Goal 1
+
+
+
+    //TODO - Goal 2
+
+
+
+    //TODO - Goal3
+
+
 
   }
 }
