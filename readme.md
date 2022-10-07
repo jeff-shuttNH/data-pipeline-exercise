@@ -49,16 +49,16 @@ if a person has 100 medical events that happen within a single month, then there
 ### Standard Format
 Read in the data from `file1.csv` and standardize it into the following schema:
 
-| Field Name       | Data Type       |
-| ---------------- | ---------       |
-| source_member_id | String          |
-| claim_id         | String          |
-| first_name       | String          |
-| last_name        | String          |
-| birth_date       | Date (yyyyMMdd) |
-| claim_amount     | Decimal         |
-| service_date     | Date (yyyyMMdd) |
-| paid_amount      | Decimal         |
+| Field Name       | Data Type |
+| ---------------- |-----------|
+| source_member_id | String    |
+| claim_id         | String    |
+| first_name       | String    |
+| last_name        | String    |
+| birth_date       | Date      |
+| claim_amount     | Decimal   |
+| service_date     | Date      |
+| paid_amount      | Decimal   |
 
 
 ## Goal 2: Run Validation Checks
