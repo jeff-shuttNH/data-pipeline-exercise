@@ -7,7 +7,7 @@ object ScalaDataPipeline {
   def main(args: Array[String]): Unit = {
 
     // https://github.com/tototoshi/scala-csv
-    val reader = CSVReader.open(new java.io.File(this.getClass.getResource("/file1.csv").getPath))
+    val reader = CSVReader.open(scala.io.Source.fromResource("file1.csv"))
 
     val lines: List[List[String]] = reader.all()
 
